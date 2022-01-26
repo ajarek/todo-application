@@ -98,10 +98,10 @@ function changeThema(e) {
     if (e.target.id !== 'sun') {
         const adress = 'dark'
         css.href = "css/thema-" + adress + ".css"
-        btnThema.innerHTML = `<img id="sun" src="./images/icon-sun.svg" alt="icon-sun">`
+        btnThema.innerHTML = `<img id="sun" src="images/icon-sun.svg" alt="icon-sun">`
     } else {
         css.href = "css/thema-light.css"
-        btnThema.innerHTML = `<img id="moon" src="./images/icon-moon.svg" alt="icon-moon">`
+        btnThema.innerHTML = `<img id="moon" src="images/icon-moon.svg" alt="icon-moon">`
     }
 }
 btnThema.addEventListener('click', changeThema)
